@@ -1,0 +1,99 @@
+*{padding: 0;margin: 0;}
+
+.item1 i.fas.fa-bars {
+    padding-right: 5px;
+}
+.menu{
+	width: 100%;
+	height: 40px;
+	background: green;
+	line-height: 40px;
+	position: relative;
+}
+.item1{
+	float: left;
+	list-style: none;
+	font-size: 18px;
+	color: white;
+	padding-left: 5px;
+	padding-right:5px;
+
+}
+.search{
+	width: 28px;
+	height: 28px;
+	float: right;
+	list-style: none;
+	color: white;
+	border: 1px solid white;
+	margin-right: 55px;
+	font-size: 24px;
+	border-radius: 50%;
+	/* padding: 5px; */
+	padding-left: 7px;
+	padding-bottom: 7px;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.dai{
+	border-right: 1px solid white;
+}
+.ngan{
+	border-right: 1px solid white;
+	padding-right: 5px;
+	}
+.listmenu{
+	width: 200px;
+	position: absolute;
+	background: #5ace5a;
+	color: black;
+	list-style: none;
+	display: none;
+}
+.item2{
+	height: 30px;
+	border-bottom: 1px solid white;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+.xemdanhmuc:hover .mot{
+	display: block;
+}
+.item1 a:hover{
+	color: black;
+	text-decoration: underline;
+}
+.hitech:hover .hai{
+	display: block;
+}
+.item2:hover{
+	background: green;
+	color: white;
+	border-color: green;
+}
+.listmenu2{
+	width: 200px;
+	background: green;
+	position: absolute;
+	left: 200px;
+	list-style: none;
+	top: 35px;
+	display: none;
+	/* border-bottom: 1px solid white; */
+	/* padding-left: 10px; */
+}
+.item3{
+	border-bottom: 1px solid white;
+	padding-left: 10px;
+}
+.tintuctrongngay:hover .listmenu2{
+	display: block;
+	color: black;
+}
+.item3:hover{
+	color: white;
+	text-decoration: underline;
+}

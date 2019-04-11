@@ -1,0 +1,156 @@
+*{margin: 0;padding: 0;}
+
+
+
+
+.container{
+	width: 100%;
+}
+.phanthan{
+	width: 70%;
+}
+.trai a {
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+    display: inline-block;
+    /* padding-top: 36px; */
+}
+body{
+	background-image: url(bg.jpg);
+	background-size: 100%;
+}
+.menutren{
+	width: 70%;
+	height: 100px;
+	margin-bottom: 50px;
+}
+.trai{
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 30px;
+}
+li .trai{
+	float: left;
+
+}
+li.phai{
+	float: right;
+	list-style: none;
+	margin-left: 30px;
+	margin-top: 60px;
+	padding: 8px;
+	
+}
+
+.phai a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.phai:hover {
+	background: #e2dede;
+	padding: 8px;
+	border-radius: 9px;
+
+}
+.menutrai{
+	width: 20%;
+	float: left;
+}
+.dsanh{
+	width: 80%;
+	float: right;
+}
+.item1 a{
+	text-decoration: none;
+	color: gray;
+}
+.item1{
+	
+padding-left: 40px;
+	
+padding-bottom: 10px;
+}
+
+.item1 a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+.cacanh{
+	width: 30%;
+	height: 270px;
+	position: relative;
+	z-index: 1;
+	margin-right: 10px;
+	float: left;
+	margin-bottom: 20px;
+	border: 1px solid white;
+	border-radius: 10px;
+	perspective: 600px;
+}
+.tieude {
+	width: 226px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    background: #f1e9e9fc;
+    border: 1px solid white;
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+    
+}
+.tieude p{
+	padding-left: 8px;
+}
+.anh {
+	position: absolute;
+	width: 226px;
+    height: 218px;
+    z-index: 2;
+    border: 1px solid white;
+    border-radius: 0 0 10px 10px;
+    border-top: none;
+    transition: 0.5s;
+
+
+}
+
+.chu{
+	position: absolute;
+	width: 226px;
+	background: #0c0c0cb3;
+	bottom: 0;
+	padding-top: 10px;
+	z-index: 3;
+	color: #fff;
+
+	 border: 1px solid white;
+	 border-radius: 0 0 10px 10px;
+	 border-top: none;
+
+}
+.chu p{
+	padding-left: 5px;
+}
+.footer{
+	height: 50px;
+	margin-top: 50px;
+	padding-left: 10px;
+	margin-bottom: 50px;
+}
+.item2{
+	float: left;
+	list-style: none;
+	margin-right: 10px;
+	
+}
+.item2 a{
+	color: blue;
+}
+#den{
+	color: black;
+}
+.anh:hover{
+	transform: translateZ(30px);
+}
